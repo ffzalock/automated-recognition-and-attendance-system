@@ -1,0 +1,43 @@
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Node Dependencies & Build
+node_modules/
+**/node_modules/
+dist/
+coverage/
+.cache/
+*.log
+
+# Python Virtual Environments & Cache
+.venv*/
+venv*/
+env*/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Tests & Reports
+frontend-vue/tests/e2e/reports/
+
+# Media, Captures & Face Data
+captures/
+known_faces/
+
+# Databases & Backups
+*.db
+*.sqlite
+*.sqlite3
+mongo-dump/
+backend-node/backups/
+
+# Confidential / Private Folders
+cctv/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
